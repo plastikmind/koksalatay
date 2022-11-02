@@ -346,8 +346,11 @@ const Pay = () => {
             {cartItems.length >= 1 &&
               cartItems.map((item) => (
                 <div className="flex p-5 justify-between" key={item._id}>
-                  <div className="flex w-1/4 items-center justify-center pt-8">
-                    <img src={urlFor(item?.image[0])} className="h-40 left-8" />
+                  <div className="flex w-1/4 items-center justify-center">
+                    <img
+                      src={urlFor(item?.image[0])}
+                      className="h-20 lg:h-28 xl:h-32 left-8"
+                    />
                   </div>
                   <div className="flex flex-col items-center justify-center px-12">
                     <div className="flex text-xl font-bold ">

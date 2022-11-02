@@ -10,8 +10,8 @@ const Success = () => {
     <div className="">
       <Header />
 
-      <div className="flex flex-col items-center justify-center min-h-screen">
-        <p className="font-Great-Vibes text-8xl">Thank you!</p>
+      <div className="flex flex-col items-center justify-center min-h-screen px-3">
+        <p className="font-Great-Vibes pt-20 text-7xl">Thank you!</p>
         <p className="pt-8">
           We will email you an order confirmation and tracking info after your
           Manuel Payment.
@@ -32,7 +32,7 @@ const Success = () => {
         </p>
         <button
           type="button"
-          class="text-[#2A4232] hover:text-white border border-[#2A4232]  hover:bg-[#2A4232] focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-4"
+          className="text-[#2A4232] hover:text-white border border-[#2A4232]  hover:bg-[#2A4232] focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-4"
         >
           <Link href="/">Return to Homepage</Link>
         </button>
