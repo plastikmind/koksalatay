@@ -8,7 +8,9 @@ const collections = ({ collections }) => (
   <div className="">
     <Header />
     <div className="flex items-center justify-center h-80">
-      <p className="text-4xl sm:text-6xl font-bold italic">COLLECTIONS</p>
+      <p className="text-2xl sm:text-4xl md:text-5xl font-thin italic">
+        COLLECTIONS
+      </p>
     </div>
     <div className="grid lg:grid-cols-2 justify-center">
       {collections?.map((collection, i) => (

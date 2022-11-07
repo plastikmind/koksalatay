@@ -9,7 +9,7 @@ const Collection = ({ collection: { cover, name, slug } }) => {
         <div className="flex">
           <div className=" px-8 mb-20 mx-auto max-w-md xl:max-w-xl">
             <img src={urlFor(cover)} className="mt-20" />
-            <p className="flex font-bold text-2xl">{name}</p>
+            <p className="flex font-light uppercase text-2xl">{name}</p>
           </div>
         </div>
       </Link>

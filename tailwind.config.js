@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-const defaultTheme = require("tailwindcss/defaultTheme")
-
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   content: [
@@ -11,8 +10,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'Great-Vibes': ['Great Vibes', ...defaultTheme.fontFamily.sans],
-        'Montserrat': ['Montserrat', ...defaultTheme.fontFamily.sans],
+        "Great-Vibes": ["Great Vibes", ...defaultTheme.fontFamily.sans],
+        Montserrat: ["Montserrat", ...defaultTheme.fontFamily.sans],
       },
       screens: {
         mobile: "400px",

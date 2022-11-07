@@ -13,7 +13,7 @@ const CollectionDetails = ({ collection, collections }) => {
         <div className="py-8 px-4">
           <div className="flex flex-wrap -mx-4">
             <div className="flex w-1/2 px-4 mt-20">
-              <h1 className="font-bold tracking-widest relative text-7xl my-8 ">
+              <h1 className="font-light tracking-widest uppercase relative text-7xl my-8 ">
                 {name}
               </h1>
             </div>
