@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Link from "next/link";
-import { AiOutlineShopping } from "react-icons/ai";
+import { AiOutlineShopping, AiOutlineMenu } from "react-icons/ai";
 import { useStateContext } from "../context/StateContext";
 import Cart from "./Cart";
 import MenuItems from "./MenuItems";
@@ -59,9 +59,9 @@ const Header = () => {
         <div>
           <span
             onClick={showMenu}
-            className="animate-spin cursor-progress inline-flex  h-4 w-4 rounded-full left-20 absolute text-4xl "
+            className="inline-flex  h-4 w-4 rounded-full left-8 absolute text-xl "
           >
-            *
+            <AiOutlineMenu />
           </span>
         </div>
         {/* <button className='fixed mt-10 left-4'>*</button> */}

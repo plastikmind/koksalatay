@@ -28,9 +28,9 @@ const MenuItems = ({ showMenu, active }) => {
       }
     >
       <div className="">
-        <ul className="flex flex-col justify-center text-5xl sm:text-7xl  font-bold items-center">
+        <ul className="flex flex-col justify-center text-4xl sm:text-6xl  font-bold items-center">
           <button
-            className="text-2xl sm:text-3xl pb-10"
+            className="text-xl sm:text-2xl pb-10"
             onClick={showMenu}
             active="false"
           >
