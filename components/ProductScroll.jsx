@@ -1,5 +1,6 @@
 import { useRef, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -7,6 +8,55 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 const ProductScroll = () => {
   gsap.registerPlugin(ScrollTrigger);
   const ref = useRef(null);
+
+  // SALED PRODUCTS
+  // useEffect(() => {
+  //   const element = ref.current;
+  //   gsap.fromTo(
+  //     element.querySelector(".bir"),
+  //     {
+  //       opacity: 0,
+  //       scale: 0.4,
+  //       y: -20,
+  //     },
+  //     {
+  //       opacity: 1,
+  //       y: 0,
+  //       scale: 1,
+  //       ease: "none",
+  //       scrollTrigger: {
+  //         trigger: element.querySelector(".elbise"),
+  //         start: "top center",
+  //         end: "center center",
+  //         scrub: true,
+  //       },
+  //     }
+  //   );
+  // }, []);
+
+  // useEffect(() => {
+  //   const element = ref.current;
+  //   gsap.fromTo(
+  //     element.querySelector(".bes"),
+  //     {
+  //       opacity: 0,
+  //       scale: 0.4,
+  //       y: -20,
+  //     },
+  //     {
+  //       opacity: 1,
+  //       y: 0,
+  //       scale: 1,
+  //       ease: "none",
+  //       scrollTrigger: {
+  //         trigger: element.querySelector(".ay"),
+  //         start: "top center",
+  //         end: "center center",
+  //         scrub: true,
+  //       },
+  //     }
+  //   );
+  // }, []);
 
   // useEffect(() => {
   //   const element = ref.current;
@@ -32,101 +82,101 @@ const ProductScroll = () => {
   //   );
   // }, []);
 
-  useEffect(() => {
-    const element = ref.current;
-    gsap.fromTo(
-      element.querySelector(".bes"),
-      {
-        opacity: 0,
-        scale: 0.4,
-        y: -20,
-      },
-      {
-        opacity: 1,
-        y: 0,
-        scale: 1,
-        ease: "none",
-        scrollTrigger: {
-          trigger: element.querySelector(".ay"),
-          start: "top center",
-          end: "center center",
-          scrub: true,
-        },
-      }
-    );
-  }, []);
+  // useEffect(() => {
+  //   const element = ref.current;
+  //   gsap.fromTo(
+  //     element.querySelector(".uc"),
+  //     {
+  //       opacity: 0,
+  //       scale: 0.4,
+  //       y: -20,
+  //     },
+  //     {
+  //       opacity: 1,
+  //       y: 0,
+  //       scale: 1,
+  //       ease: "none",
+  //       scrollTrigger: {
+  //         trigger: element.querySelector(".beyaz-elbise"),
+  //         start: "top center",
+  //         end: "center center",
+  //         scrub: true,
+  //       },
+  //     }
+  //   );
+  // }, []);
 
-  useEffect(() => {
-    const element = ref.current;
-    gsap.fromTo(
-      element.querySelector(".bir"),
-      {
-        opacity: 0,
-        scale: 0.4,
-        y: -20,
-      },
-      {
-        opacity: 1,
-        y: 0,
-        scale: 1,
-        ease: "none",
-        scrollTrigger: {
-          trigger: element.querySelector(".elbise"),
-          start: "top center",
-          end: "center center",
-          scrub: true,
-        },
-      }
-    );
-  }, []);
+  // useEffect(() => {
+  //   const element = ref.current;
+  //   gsap.fromTo(
+  //     element.querySelector(".dort"),
+  //     {
+  //       opacity: 0,
+  //       scale: 0.4,
+  //       y: -20,
+  //     },
+  //     {
+  //       opacity: 1,
+  //       y: 0,
+  //       scale: 1,
+  //       ease: "none",
+  //       scrollTrigger: {
+  //         trigger: element.querySelector(".kimono"),
+  //         start: "top center",
+  //         end: "center center",
+  //         scrub: true,
+  //       },
+  //     }
+  //   );
+  // }, []);
 
-  useEffect(() => {
-    const element = ref.current;
-    gsap.fromTo(
-      element.querySelector(".uc"),
-      {
-        opacity: 0,
-        scale: 0.4,
-        y: -20,
-      },
-      {
-        opacity: 1,
-        y: 0,
-        scale: 1,
-        ease: "none",
-        scrollTrigger: {
-          trigger: element.querySelector(".beyaz-elbise"),
-          start: "top center",
-          end: "center center",
-          scrub: true,
-        },
-      }
-    );
-  }, []);
+  // useEffect(() => {
+  //   const element = ref.current;
+  //   gsap.fromTo(
+  //     element.querySelector(".iki"),
+  //     {
+  //       opacity: 0,
+  //       scale: 0.4,
+  //       y: -20,
+  //     },
+  //     {
+  //       opacity: 1,
+  //       y: 0,
+  //       scale: 1,
+  //       ease: "none",
+  //       scrollTrigger: {
+  //         trigger: element.querySelector(".pant"),
+  //         start: "top center",
+  //         end: "center center",
+  //         scrub: true,
+  //       },
+  //     }
+  //   );
+  // }, []);
 
-  useEffect(() => {
-    const element = ref.current;
-    gsap.fromTo(
-      element.querySelector(".dort"),
-      {
-        opacity: 0,
-        scale: 0.4,
-        y: -20,
-      },
-      {
-        opacity: 1,
-        y: 0,
-        scale: 1,
-        ease: "none",
-        scrollTrigger: {
-          trigger: element.querySelector(".kimono"),
-          start: "top center",
-          end: "center center",
-          scrub: true,
-        },
-      }
-    );
-  }, []);
+  // useEffect(() => {
+  //   const element = ref.current;
+  //   gsap.fromTo(
+  //     element.querySelector(".bes"),
+  //     {
+  //       opacity: 0,
+  //       scale: 0.4,
+  //       y: -20,
+  //     },
+  //     {
+  //       opacity: 1,
+  //       y: 0,
+  //       scale: 1,
+  //       ease: "none",
+  //       scrollTrigger: {
+  //         trigger: element.querySelector(".ay"),
+  //         start: "top center",
+  //         end: "center center",
+  //         scrub: true,
+  //       },
+  //     }
+  //   );
+  // }, []);
 
   useEffect(() => {
     const element = ref.current;
@@ -144,54 +194,6 @@ const ProductScroll = () => {
         ease: "none",
         scrollTrigger: {
           trigger: element.querySelector(".kazak"),
-          start: "top center",
-          end: "center center",
-          scrub: true,
-        },
-      }
-    );
-  }, []);
-
-  useEffect(() => {
-    const element = ref.current;
-    gsap.fromTo(
-      element.querySelector(".iki"),
-      {
-        opacity: 0,
-        scale: 0.4,
-        y: -20,
-      },
-      {
-        opacity: 1,
-        y: 0,
-        scale: 1,
-        ease: "none",
-        scrollTrigger: {
-          trigger: element.querySelector(".pant"),
-          start: "top center",
-          end: "center center",
-          scrub: true,
-        },
-      }
-    );
-  }, []);
-
-  useEffect(() => {
-    const element = ref.current;
-    gsap.fromTo(
-      element.querySelector(".bes"),
-      {
-        opacity: 0,
-        scale: 0.4,
-        y: -20,
-      },
-      {
-        opacity: 1,
-        y: 0,
-        scale: 1,
-        ease: "none",
-        scrollTrigger: {
-          trigger: element.querySelector(".ay"),
           start: "top center",
           end: "center center",
           scrub: true,
@@ -250,112 +252,136 @@ const ProductScroll = () => {
 
   return (
     <div ref={ref} className="flex flex-col">
-      <div className="yorgan">
+      <div className="yorgan relative">
         <div className="flex">
           <Link href={"/product/soft-denim-quilt-jacket-coat"}>
-            <a>
-              <img
+            <a className="h-80 w-80 md:h-[666px] md:w-[666px] lg:pl-32 xl:pl-60 2xl:pl-80 quiltjacket relative">
+              <Image
                 src="/yorgan-ceket.png"
-                className="h-[333px] md:h-[666px] pl-20 lg:pl-32 xl:pl-60 2xl:pl-80 quiltjacket relative"
+                alt="SOFT DENIM QUILT JACKET COAT"
+                layout="fill"
+                objectFit="fill"
               />
             </a>
           </Link>
         </div>
       </div>
 
-      <div className="flex justify-end ehram py-20">
+      <div className="flex justify-end ehram py-16 relative mt-10">
         <Link href="/product/rare-ehram-fabric-reversible-jacket">
-          <a>
-            <img
+          <a className="h-80 w-80 md:h-[666px] md:w-[666px] pr-6 sm:pr-20 lg:pr-20 xl:pr-60 ehramceket relative">
+            <Image
               src="/ehram.png"
-              className="h-[333px] md:h-[666px] pr-6 sm:pr-20 lg:pr-20 xl:pr-60 ehramceket relative"
+              alt="RARE EHRAM FABRIC REVERSIBLE JACKET"
+              layout="fill"
+              objectFit="fill"
             />
           </a>
         </Link>
       </div>
 
-      <div className="raincoat">
-        <div className="flex mt-20">
+      <div className="raincoat relative ">
+        <div className="flex">
           <Link href={"/product/raincoat"}>
-            <a>
-              <img
+            <a className="h-80 w-80 md:h-[666px] md:w-[666px] lg:pl-32 xl:pl-60 2xl:pl-80 rain relative">
+              <Image
                 src="/raincoat.png"
-                className="h-[333px] md:h-[666px] pl-20 lg:pl-32 xl:pl-60 2xl:pl-80 rain relative"
+                alt="RAINCOAT"
+                layout="fill"
+                objectFit="fill"
               />
             </a>
           </Link>
         </div>
       </div>
 
-      <div className="flex justify-end kazak py-20">
+      <div className="flex justify-end kazak relative mb-32">
         <Link href="/product/organic-wool-pullover">
-          <a>
-            <img
+          <a className="h-80 w-80 md:h-[666px] md:w-[666px] pr-6 sm:pr-20 lg:pr-20 xl:pr-60 yun relative">
+            <Image
               src="/yun-kazak.png"
-              className="h-[333px] md:h-[666px] pr-6 sm:pr-20 lg:pr-20 xl:pr-60 yun relative"
+              layout="fill"
+              objectFit="fill"
+              alt="ORGANIC WOOL PULLOVER"
             />
           </a>
         </Link>
       </div>
 
-      <div className="elbise pt-20">
+      {/* SOLD OUT PRODUCTS */}
+
+      {/* <div className="elbise pt-20">
         <div className="flex">
           <Link href={"/product/pomegrate-patterned-rare-suzani-long-dress"}>
-            <a>
-              <img
+            <a className="h-[333px] md:h-[666px] pl-20 lg:pl-32 xl:pl-60 2xl:pl-80 bir relative">
+              <Image
                 src="/nar-dress.png"
-                className="h-[333px] md:h-[666px] pl-20 lg:pl-32 xl:pl-60 2xl:pl-80 bir relative"
+                height={600}
+                width={600}
+                alt="POMEGRATE PATTERNED RARE SUZANI LONG DRESS"
               />
             </a>
           </Link>
         </div>
       </div>
 
+      
       <div className="flex justify-end pant py-20">
         <Link href="/product/sailor-pants">
-          <a className="text-center text-red-500 font-semibold -rotate-2 text-2xl font-Montserrat">
-            <img
+          <a className="h-[333px] md:h-[666px] pr-6 sm:pr-20 lg:pr-20 xl:pr-60 iki relative grayscale">
+            <Image
               src="/sailor-pants.png"
-              className="h-[333px] md:h-[666px] pr-6 sm:pr-20 lg:pr-20 xl:pr-60 iki relative grayscale"
+              height={600}
+              width={600}
+              alt="sailor pants"
             />{" "}
-            SOLD OUT!
+            <span className="text-center text-red-500 font-semibold -rotate-2 text-2xl font-Montserrat">
+              SOLD OUT!
+            </span>
           </a>
         </Link>
       </div>
 
       <div className="flex beyaz-elbise py-20">
         <Link href="/product/deep-v">
-          <a className="text-center text-red-500 font-semibold -rotate-2 text-2xl font-Montserrat">
-            <img
-              src="/deep-v.png"
-              className="h-[333px] md:h-[666px] pl-4 sm:pl-12 lg:pl-24 xl:pl-60 2xl:pl-80 uc relative  grayscale"
-            />{" "}
-            SOLD OUT!
+          <a className="h-[333px] md:h-[666px] pl-4 sm:pl-12 lg:pl-24 xl:pl-60 2xl:pl-80 uc relative  grayscale">
+            <Image src="/deep-v.png" height={600} width={600} alt="deep v" />{" "}
+            <span className="text-center text-red-500 font-semibold -rotate-2 text-2xl font-Montserrat">
+              SOLD OUT!
+            </span>
           </a>
         </Link>
       </div>
       <div className="flex kimono justify-end py-20">
         <Link href="/product/collar-kimono">
-          <a className="text-center text-red-500 font-semibold -rotate-2 text-2xl font-Montserrat">
-            <img
+          <a className="h-[333px] md:h-[666px] pr-4 sm:pr-20 lg:pr-20 xl:pr-60 dort relative grayscale">
+            <Image
               src="/collar-kimono.png"
-              className="h-[333px] md:h-[666px] pr-4 sm:pr-20 lg:pr-20 xl:pr-60 dort relative grayscale"
+              height={600}
+              width={600}
+              alt="kimono"
             />{" "}
-            SOLD OUT!
+            <span className="text-center text-red-500 font-semibold -rotate-2 text-2xl font-Montserrat">
+              SOLD OUT!
+            </span>
           </a>
         </Link>
       </div>
       <div className="flex ay pt-20 mb-32">
         <Link href="/product/linen-shirt">
-          <a className="text-center text-red-500 font-semibold -rotate-2 text-2xl font-Montserrat">
-            <img
+          <a className="h-[333px] md:h-[666px] pl-6 sm:pl-20 lg:pl-32 xl:pl-60 2xl:pl-80 bes relative grayscale">
+            <Image
               src="/linen-shirt.png"
-              className="h-[333px] md:h-[666px] pl-6 sm:pl-20 lg:pl-32 xl:pl-60 2xl:pl-80 bes relative grayscale"
+              height={600}
+              width={600}
+              alt="linen shirt"
             />{" "}
-            SOLD OUT!
+            <span className="text-center text-red-500 font-semibold -rotate-2 text-2xl font-Montserrat">
+              SOLD OUT!
+            </span>
           </a>
         </Link>
-      </div>
+      </div>  */}
     </div>
   );
 };
